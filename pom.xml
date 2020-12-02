@@ -4,12 +4,12 @@
     <parent>
         <groupId>org.jenkins-ci.plugins</groupId>
         <artifactId>plugin</artifactId>
-        <version>3.18</version>
+        <version>4.0</version>
         <relativePath />
     </parent>
     <groupId>io.jenkins.plugin.casc.secrets.secretsmanager</groupId>
     <artifactId>configuration-as-code-secrets-manager</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <packaging>hpi</packaging>
     <name>Configuration as Code AWS Secrets Manager secrets</name>
     <description>This plugin resolves secrets from Amazon SecretsManager for CASC plugin</description>
@@ -20,14 +20,14 @@
         </license>
     </licenses>
     <properties>
-        <jenkins.version>2.60.3</jenkins.version>
+        <jenkins.version>2.222</jenkins.version>
         <java.level>8</java.level>
     </properties>
     <dependencies>
         <dependency>
             <groupId>io.jenkins</groupId>
             <artifactId>configuration-as-code</artifactId>
-            <version>1.17</version>
+            <version>1.43</version>
         </dependency>
         <dependency>
             <groupId>org.jenkins-ci.plugins</groupId>
